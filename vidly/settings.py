@@ -84,15 +84,15 @@ DATABASES = {
         # 'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 
-        'NAME': ‘<db_name>’,
+        'NAME': 'vidly',
 
-        'USER': '<db_username>',
+        'USER': 'vidly',
 
-        'PASSWORD': '<password>',
+        'PASSWORD': 'vidly',
 
-        'HOST': '<db_hostname_or_ip>',
+        'HOST': '127.0.0.1',
 
-        'PORT': '<db_port>',
+        'PORT': '5432',
     }
 }
 
